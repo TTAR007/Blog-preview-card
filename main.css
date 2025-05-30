@@ -129,3 +129,13 @@ main {
         width: 384px;
     }
 } 
+
+@media screen and (max-width: 370px) {
+    main {
+        width: 280px;
+    }
+
+    .text {
+        width: 100%;
+    }
+}
