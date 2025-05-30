@@ -89,12 +89,13 @@ main {
     line-height: 150%;
     color: hsl(0, 0%, 7%);
     margin-top: 12px;
+    transition: color 0.15s;
     width: fit-content;
 }
 
 @media (prefers-reduced-motion: reduce) {
     .title {
-        transition: color 0.15s;
+        transition: none;
     }
 }
 
