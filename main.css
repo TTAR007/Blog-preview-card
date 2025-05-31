@@ -81,7 +81,7 @@ main {
 }
 
 .title {
-    font-size: 20px;
+    font-size: clamp(1.125rem, 0.891rem + 0.75vw, 1.5rem);
     font-weight: 800;
     line-height: 150%;
     color: hsl(0, 0%, 7%);
